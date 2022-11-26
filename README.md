@@ -1,7 +1,8 @@
 # vite-vue3-elementplus-template
 
-`vite` + `vue3` + `element-plus`+`ts`...开发模板,api/组件自动导入,无需手动/显示引入,即可使用的快速开发模板,支持 vueuse 暗色模式
+`vite`+`vue3`+`element-plus`+`ts`...开发模板,api/组件自动导入,无需手动/显示引入,即可使用的快速开发模板,支持 vueuse 暗色模式
 scss/less/css 编译自动增加浏览器兼容前缀,在`.browserslistrc`中配置支持浏览器
+` WebAssembly``wasm` 打包支持
 
 ## 自动导入 api:
 
@@ -31,6 +32,7 @@ scss/less/css 编译自动增加浏览器兼容前缀,在`.browserslistrc`中配
 - `@iconify-json/ep`
 - `postcss`
 - `postcss-preset-env`
+- `wasm`
 
 ## Project Setup
 

@@ -1,9 +1,18 @@
-<script setup lang="ts">
-import { isDark, toggleDark } from './themes'
-const activeIndex = ref('1')
-const handleSelect = (key: string, keyPath: string[]) => {
-  console.log(key, keyPath)
-}
+<script setup lang="tsx">
+import { ElMessage } from 'element-plus';
+import { isDark, toggleDark } from './themes';
+import { greet, fib } from 'hello-wasm-template';
+const activeIndex = ref('1');
+const handleSelect = (key: string, keyPath: string[]): void => {
+  console.log(key, keyPath);
+  ElMessage({
+    message: isDark.value ? <p>浅色模式</p> : <p>深色模式</p>,
+    type: 'success',
+    center: true,
+  });
+};
+greet();
+alert(fib(28));
 </script>
 
 <template>

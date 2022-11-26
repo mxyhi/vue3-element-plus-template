@@ -16,3 +16,4 @@ Dockerfile
 postcss.config.js
 tailwind.config.js
 stylelint.config.js
+*.d.ts

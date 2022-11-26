@@ -17,6 +17,8 @@
     "types": ["vite/client", "element-plus/global", "unplugin-icons/types/vue"],
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "target": "ES6",
+    "module": "ES6"
   }
 }
